@@ -1,0 +1,382 @@
+16:30:52.134  INFO [pocket,,] [24636] [background-preinit][org.hibernate.validator.internal.util.Version:21]: HV000001: Hibernate Validator 6.1.6.Final
+16:30:53.168  INFO [pocket,,] [24636] [main][org.springframework.boot.SpringApplication:651]: No active profile set, falling back to default profiles: default
+16:30:53.934  INFO [pocket,,] [24636] [main][org.springframework.data.repository.config.RepositoryConfigurationDelegate:249]: Multiple Spring Data modules found, entering strict repository configuration mode!
+16:30:53.937  INFO [pocket,,] [24636] [main][org.springframework.data.repository.config.RepositoryConfigurationDelegate:127]: Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+16:30:53.959  INFO [pocket,,] [24636] [main][org.springframework.data.repository.config.RepositoryConfigurationDelegate:187]: Finished Spring Data repository scanning in 9ms. Found 0 Redis repository interfaces.
+16:30:54.235  INFO [pocket,,] [24636] [main][org.springframework.cloud.context.scope.GenericScope:295]: BeanFactory id=c67ba0a4-fd94-37bd-87dd-180e0f42e11b
+16:30:54.518  INFO [pocket,,] [24636] [main][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335]: Bean 'spring.sleuth.redis-org.springframework.cloud.sleuth.instrument.redis.TraceRedisProperties' of type [org.springframework.cloud.sleuth.instrument.redis.TraceRedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:30:54.816  WARN [pocket,,] [24636] [main][io.undertow.websockets.jsr.Bootstrap:68]: UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+16:30:54.848  INFO [pocket,,] [24636] [main][io.undertow.servlet.spec.ServletContextImpl:364]: Initializing Spring embedded WebApplicationContext
+16:30:54.848  INFO [pocket,,] [24636] [main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:285]: Root WebApplicationContext: initialization completed in 1667 ms
+16:30:55.419  WARN [pocket,,] [24636] [main][com.netflix.config.sources.URLConfigurationSource:121]: No URLs will be polled as dynamic configuration sources.
+16:30:55.419  INFO [pocket,,] [24636] [main][com.netflix.config.sources.URLConfigurationSource:122]: To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+16:30:55.423  WARN [pocket,,] [24636] [main][com.netflix.config.sources.URLConfigurationSource:121]: No URLs will be polled as dynamic configuration sources.
+16:30:55.423  INFO [pocket,,] [24636] [main][com.netflix.config.sources.URLConfigurationSource:122]: To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+16:30:55.795  INFO [pocket,,] [24636] [main][org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:181]: Initializing ExecutorService 'applicationTaskExecutor'
+16:30:58.902  INFO [pocket,,] [24636] [main][org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration:78]: Eureka HTTP Client uses Jersey
+16:30:59.330  WARN [pocket,,] [24636] [main][org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger:108]: You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+16:30:59.650  INFO [pocket,,] [24636] [main][org.springframework.cloud.netflix.eureka.InstanceInfoFactory:78]: Setting initial instance status as: UP. This may be too early for the instance to advertise itself as available. You would instead want to control this via a healthcheck handler.
+16:30:59.692  INFO [pocket,,] [24636] [main][com.netflix.discovery.DiscoveryClient:372]: Initializing Eureka in region us-east-1
+16:31:00.093  INFO [pocket,,] [24636] [main][com.netflix.discovery.provider.DiscoveryJerseyProvider:70]: Using JSON encoding codec LegacyJacksonJson
+16:31:00.093  INFO [pocket,,] [24636] [main][com.netflix.discovery.provider.DiscoveryJerseyProvider:71]: Using JSON decoding codec LegacyJacksonJson
+16:31:00.251  INFO [pocket,,] [24636] [main][com.netflix.discovery.provider.DiscoveryJerseyProvider:80]: Using XML encoding codec XStreamXml
+16:31:00.251  INFO [pocket,,] [24636] [main][com.netflix.discovery.provider.DiscoveryJerseyProvider:81]: Using XML decoding codec XStreamXml
+16:31:00.460  INFO [pocket,,] [24636] [main][com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43]: Resolving eureka endpoints via configuration
+16:31:00.713  INFO [pocket,,] [24636] [main][com.netflix.discovery.DiscoveryClient:1007]: Disable delta property : false
+16:31:00.713  INFO [pocket,,] [24636] [main][com.netflix.discovery.DiscoveryClient:1008]: Single vip registry refresh property : null
+16:31:00.713  INFO [pocket,,] [24636] [main][com.netflix.discovery.DiscoveryClient:1009]: Force full registry fetch : false
+16:31:00.714  INFO [pocket,,] [24636] [main][com.netflix.discovery.DiscoveryClient:1010]: Application is null : false
+16:31:00.714  INFO [pocket,,] [24636] [main][com.netflix.discovery.DiscoveryClient:1011]: Registered Applications size is zero : true
+16:31:00.714  INFO [pocket,,] [24636] [main][com.netflix.discovery.DiscoveryClient:1013]: Application version is -1: true
+16:31:00.714  INFO [pocket,,] [24636] [main][com.netflix.discovery.DiscoveryClient:1097]: Getting all instance registry info from the eureka server
+16:31:00.973  INFO [pocket,,] [24636] [main][com.netflix.discovery.DiscoveryClient:1106]: The response status is 200
+16:31:00.979  INFO [pocket,,] [24636] [main][com.netflix.discovery.DiscoveryClient:1321]: Starting heartbeat executor: renew interval is: 5
+16:31:00.985  INFO [pocket,,] [24636] [main][com.netflix.discovery.InstanceInfoReplicator:60]: InstanceInfoReplicator onDemand update allowed rate per min is 4
+16:31:01.025  INFO [pocket,,] [24636] [main][com.netflix.discovery.DiscoveryClient:492]: Discovery Client initialized at timestamp 1606465861012 with initial instances count: 3
+16:31:01.050  INFO [pocket,,] [24636] [main][org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry:41]: Registering application RISK with eureka with status UP
+16:31:01.074  INFO [pocket,,] [24636] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:31:01.074  INFO [pocket,,] [24636] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:31:01.093  INFO [pocket,,] [24636] [main][org.xnio.Xnio:95]: XNIO version 3.8.0.Final
+16:31:01.114  INFO [pocket,,] [24636] [main][org.xnio.nio.NioXnio:59]: XNIO NIO Implementation Version 3.8.0.Final
+16:31:01.171  INFO [pocket,,] [24636] [main][org.jboss.threads.Version:52]: JBoss Threads version 3.1.0.Final
+16:31:01.225  INFO [pocket,,] [24636] [main][io.undertow.Undertow:117]: starting server: Undertow - 2.1.4.Final
+16:31:01.302  INFO [pocket,,] [24636] [main][org.springframework.boot.web.embedded.undertow.UndertowWebServer:133]: Undertow started on port(s) 8155 (http)
+16:31:01.304  INFO [pocket,,] [24636] [main][org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration:145]: Updating port to 8155
+16:31:01.707  INFO [pocket,,] [24636] [main][org.springframework.boot.StartupInfoLogger:61]: Started RiskApplication in 10.257 seconds (JVM running for 12.318)
+16:31:06.144  INFO [pocket,,] [24636] [DiscoveryClient-HeartbeatExecutor-0][com.netflix.discovery.DiscoveryClient:897]: DiscoveryClient_RISK/47.98.120.110:8155 - Re-registering apps/RISK
+16:31:06.145  INFO [pocket,,] [24636] [DiscoveryClient-HeartbeatExecutor-0][com.netflix.discovery.DiscoveryClient:873]: DiscoveryClient_RISK/47.98.120.110:8155: registering service...
+16:31:06.210  INFO [pocket,,] [24636] [DiscoveryClient-HeartbeatExecutor-0][com.netflix.discovery.DiscoveryClient:882]: DiscoveryClient_RISK/47.98.120.110:8155 - registration status: 204
+16:31:30.415  INFO [pocket,,] [24636] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:31:30.947  INFO [pocket,,] [24636] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:31:59.531  INFO [pocket,,] [24636] [XNIO-2 task-1][io.undertow.servlet.spec.ServletContextImpl:364]: Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:31:59.531  INFO [pocket,,] [24636] [XNIO-2 task-1][org.springframework.web.servlet.FrameworkServlet:525]: Initializing Servlet 'dispatcherServlet'
+16:31:59.551  INFO [pocket,,] [24636] [XNIO-2 task-1][org.springframework.web.servlet.FrameworkServlet:547]: Completed initialization in 20 ms
+16:31:59.579  WARN [pocket,dd84d490be51e280,dd84d490be51e280] [24636] [XNIO-2 task-1][org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver:199]: Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+16:32:00.430  INFO [pocket,,] [24636] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:32:00.952  INFO [pocket,,] [24636] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:32:30.433  INFO [pocket,,] [24636] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:32:30.953  INFO [pocket,,] [24636] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:33:00.427  INFO [pocket,,] [24636] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:33:00.960  INFO [pocket,,] [24636] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:38:16.015  INFO [pocket,,] [22872] [background-preinit][org.hibernate.validator.internal.util.Version:21]: HV000001: Hibernate Validator 6.1.6.Final
+16:38:16.880  INFO [pocket,,] [22872] [main][org.springframework.boot.SpringApplication:651]: No active profile set, falling back to default profiles: default
+16:38:17.433  INFO [pocket,,] [22872] [main][org.springframework.data.repository.config.RepositoryConfigurationDelegate:249]: Multiple Spring Data modules found, entering strict repository configuration mode!
+16:38:17.433  INFO [pocket,,] [22872] [main][org.springframework.data.repository.config.RepositoryConfigurationDelegate:127]: Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+16:38:17.449  INFO [pocket,,] [22872] [main][org.springframework.data.repository.config.RepositoryConfigurationDelegate:187]: Finished Spring Data repository scanning in 8ms. Found 0 Redis repository interfaces.
+16:38:17.699  INFO [pocket,,] [22872] [main][org.springframework.cloud.context.scope.GenericScope:295]: BeanFactory id=c67ba0a4-fd94-37bd-87dd-180e0f42e11b
+16:38:17.935  INFO [pocket,,] [22872] [main][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335]: Bean 'spring.sleuth.redis-org.springframework.cloud.sleuth.instrument.redis.TraceRedisProperties' of type [org.springframework.cloud.sleuth.instrument.redis.TraceRedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:38:18.251  WARN [pocket,,] [22872] [main][io.undertow.websockets.jsr.Bootstrap:68]: UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+16:38:18.267  INFO [pocket,,] [22872] [main][io.undertow.servlet.spec.ServletContextImpl:364]: Initializing Spring embedded WebApplicationContext
+16:38:18.267  INFO [pocket,,] [22872] [main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:285]: Root WebApplicationContext: initialization completed in 1371 ms
+16:38:18.837  WARN [pocket,,] [22872] [main][com.netflix.config.sources.URLConfigurationSource:121]: No URLs will be polled as dynamic configuration sources.
+16:38:18.837  INFO [pocket,,] [22872] [main][com.netflix.config.sources.URLConfigurationSource:122]: To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+16:38:18.837  WARN [pocket,,] [22872] [main][com.netflix.config.sources.URLConfigurationSource:121]: No URLs will be polled as dynamic configuration sources.
+16:38:18.837  INFO [pocket,,] [22872] [main][com.netflix.config.sources.URLConfigurationSource:122]: To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+16:38:19.169  INFO [pocket,,] [22872] [main][org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:181]: Initializing ExecutorService 'applicationTaskExecutor'
+16:38:21.960  INFO [pocket,,] [22872] [main][org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration:78]: Eureka HTTP Client uses Jersey
+16:38:22.445  WARN [pocket,,] [22872] [main][org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger:108]: You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+16:38:22.730  INFO [pocket,,] [22872] [main][org.springframework.cloud.netflix.eureka.InstanceInfoFactory:78]: Setting initial instance status as: UP. This may be too early for the instance to advertise itself as available. You would instead want to control this via a healthcheck handler.
+16:38:22.762  INFO [pocket,,] [22872] [main][com.netflix.discovery.DiscoveryClient:372]: Initializing Eureka in region us-east-1
+16:38:22.978  INFO [pocket,,] [22872] [main][com.netflix.discovery.provider.DiscoveryJerseyProvider:70]: Using JSON encoding codec LegacyJacksonJson
+16:38:22.978  INFO [pocket,,] [22872] [main][com.netflix.discovery.provider.DiscoveryJerseyProvider:71]: Using JSON decoding codec LegacyJacksonJson
+16:38:23.094  INFO [pocket,,] [22872] [main][com.netflix.discovery.provider.DiscoveryJerseyProvider:80]: Using XML encoding codec XStreamXml
+16:38:23.094  INFO [pocket,,] [22872] [main][com.netflix.discovery.provider.DiscoveryJerseyProvider:81]: Using XML decoding codec XStreamXml
+16:38:23.263  INFO [pocket,,] [22872] [main][com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43]: Resolving eureka endpoints via configuration
+16:38:23.492  INFO [pocket,,] [22872] [main][com.netflix.discovery.DiscoveryClient:1007]: Disable delta property : false
+16:38:23.492  INFO [pocket,,] [22872] [main][com.netflix.discovery.DiscoveryClient:1008]: Single vip registry refresh property : null
+16:38:23.492  INFO [pocket,,] [22872] [main][com.netflix.discovery.DiscoveryClient:1009]: Force full registry fetch : false
+16:38:23.492  INFO [pocket,,] [22872] [main][com.netflix.discovery.DiscoveryClient:1010]: Application is null : false
+16:38:23.492  INFO [pocket,,] [22872] [main][com.netflix.discovery.DiscoveryClient:1011]: Registered Applications size is zero : true
+16:38:23.492  INFO [pocket,,] [22872] [main][com.netflix.discovery.DiscoveryClient:1013]: Application version is -1: true
+16:38:23.492  INFO [pocket,,] [22872] [main][com.netflix.discovery.DiscoveryClient:1097]: Getting all instance registry info from the eureka server
+16:38:23.714  INFO [pocket,,] [22872] [main][com.netflix.discovery.DiscoveryClient:1106]: The response status is 200
+16:38:23.714  INFO [pocket,,] [22872] [main][com.netflix.discovery.DiscoveryClient:1321]: Starting heartbeat executor: renew interval is: 5
+16:38:23.729  INFO [pocket,,] [22872] [main][com.netflix.discovery.InstanceInfoReplicator:60]: InstanceInfoReplicator onDemand update allowed rate per min is 4
+16:38:23.733  INFO [pocket,,] [22872] [main][com.netflix.discovery.DiscoveryClient:492]: Discovery Client initialized at timestamp 1606466303733 with initial instances count: 3
+16:38:23.733  INFO [pocket,,] [22872] [main][org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry:41]: Registering application RISK with eureka with status UP
+16:38:23.749  INFO [pocket,,] [22872] [main][org.xnio.Xnio:95]: XNIO version 3.8.0.Final
+16:38:23.764  INFO [pocket,,] [22872] [main][org.xnio.nio.NioXnio:59]: XNIO NIO Implementation Version 3.8.0.Final
+16:38:23.780  INFO [pocket,,] [22872] [main][org.jboss.threads.Version:52]: JBoss Threads version 3.1.0.Final
+16:38:23.827  INFO [pocket,,] [22872] [main][io.undertow.Undertow:117]: starting server: Undertow - 2.1.4.Final
+16:38:23.880  INFO [pocket,,] [22872] [main][org.springframework.boot.web.embedded.undertow.UndertowWebServer:133]: Undertow started on port(s) 8155 (http)
+16:38:23.880  INFO [pocket,,] [22872] [main][org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration:145]: Updating port to 8155
+16:38:24.234  INFO [pocket,,] [22872] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:38:24.234  INFO [pocket,,] [22872] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:38:24.265  INFO [pocket,,] [22872] [main][org.springframework.boot.StartupInfoLogger:61]: Started RiskApplication in 8.949 seconds (JVM running for 10.437)
+16:38:28.862  INFO [pocket,,] [22872] [DiscoveryClient-HeartbeatExecutor-0][com.netflix.discovery.DiscoveryClient:897]: DiscoveryClient_RISK/47.98.120.110:8155 - Re-registering apps/RISK
+16:38:28.862  INFO [pocket,,] [22872] [DiscoveryClient-HeartbeatExecutor-0][com.netflix.discovery.DiscoveryClient:873]: DiscoveryClient_RISK/47.98.120.110:8155: registering service...
+16:38:28.917  INFO [pocket,,] [22872] [DiscoveryClient-HeartbeatExecutor-0][com.netflix.discovery.DiscoveryClient:882]: DiscoveryClient_RISK/47.98.120.110:8155 - registration status: 204
+16:38:30.346  INFO [pocket,,] [22872] [XNIO-2 task-1][io.undertow.servlet.spec.ServletContextImpl:364]: Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:38:30.346  INFO [pocket,,] [22872] [XNIO-2 task-1][org.springframework.web.servlet.FrameworkServlet:525]: Initializing Servlet 'dispatcherServlet'
+16:38:30.372  INFO [pocket,,] [22872] [XNIO-2 task-1][org.springframework.web.servlet.FrameworkServlet:547]: Completed initialization in 25 ms
+16:38:53.628  INFO [pocket,,] [22872] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:38:54.126  INFO [pocket,,] [22872] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:39:23.641  INFO [pocket,,] [22872] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:39:24.140  INFO [pocket,,] [22872] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:39:53.640  INFO [pocket,,] [22872] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:39:54.137  INFO [pocket,,] [22872] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:40:23.637  INFO [pocket,,] [22872] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:40:24.158  INFO [pocket,,] [22872] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:40:53.629  INFO [pocket,,] [22872] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:40:54.124  INFO [pocket,,] [22872] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:41:23.619  INFO [risk,,] [22872] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:41:24.138  INFO [risk,,] [22872] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:41:53.625  INFO [risk,,] [22872] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:41:54.128  INFO [risk,,] [22872] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:42:23.619  INFO [risk,,] [22872] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:42:24.128  INFO [risk,,] [22872] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:43:36.312  INFO [risk,,] [18184] [background-preinit][org.hibernate.validator.internal.util.Version:21]: HV000001: Hibernate Validator 6.1.6.Final
+16:43:37.155  INFO [risk,,] [18184] [main][org.springframework.boot.SpringApplication:651]: No active profile set, falling back to default profiles: default
+16:43:37.731  INFO [risk,,] [18184] [main][org.springframework.data.repository.config.RepositoryConfigurationDelegate:249]: Multiple Spring Data modules found, entering strict repository configuration mode!
+16:43:37.731  INFO [risk,,] [18184] [main][org.springframework.data.repository.config.RepositoryConfigurationDelegate:127]: Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+16:43:37.762  INFO [risk,,] [18184] [main][org.springframework.data.repository.config.RepositoryConfigurationDelegate:187]: Finished Spring Data repository scanning in 9ms. Found 0 Redis repository interfaces.
+16:43:38.001  INFO [risk,,] [18184] [main][org.springframework.cloud.context.scope.GenericScope:295]: BeanFactory id=c67ba0a4-fd94-37bd-87dd-180e0f42e11b
+16:43:38.232  INFO [risk,,] [18184] [main][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335]: Bean 'spring.sleuth.redis-org.springframework.cloud.sleuth.instrument.redis.TraceRedisProperties' of type [org.springframework.cloud.sleuth.instrument.redis.TraceRedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:43:38.480  WARN [risk,,] [18184] [main][io.undertow.websockets.jsr.Bootstrap:68]: UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+16:43:38.502  INFO [risk,,] [18184] [main][io.undertow.servlet.spec.ServletContextImpl:364]: Initializing Spring embedded WebApplicationContext
+16:43:38.502  INFO [risk,,] [18184] [main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:285]: Root WebApplicationContext: initialization completed in 1332 ms
+16:43:39.066  WARN [risk,,] [18184] [main][com.netflix.config.sources.URLConfigurationSource:121]: No URLs will be polled as dynamic configuration sources.
+16:43:39.066  INFO [risk,,] [18184] [main][com.netflix.config.sources.URLConfigurationSource:122]: To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+16:43:39.066  WARN [risk,,] [18184] [main][com.netflix.config.sources.URLConfigurationSource:121]: No URLs will be polled as dynamic configuration sources.
+16:43:39.066  INFO [risk,,] [18184] [main][com.netflix.config.sources.URLConfigurationSource:122]: To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+16:43:39.420  INFO [risk,,] [18184] [main][org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:181]: Initializing ExecutorService 'applicationTaskExecutor'
+16:43:42.557  INFO [risk,,] [18184] [main][org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration:78]: Eureka HTTP Client uses Jersey
+16:43:42.968  WARN [risk,,] [18184] [main][org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger:108]: You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+16:43:43.285  INFO [risk,,] [18184] [main][org.springframework.cloud.netflix.eureka.InstanceInfoFactory:78]: Setting initial instance status as: UP. This may be too early for the instance to advertise itself as available. You would instead want to control this via a healthcheck handler.
+16:43:43.316  INFO [risk,,] [18184] [main][com.netflix.discovery.DiscoveryClient:372]: Initializing Eureka in region us-east-1
+16:43:43.501  INFO [risk,,] [18184] [main][com.netflix.discovery.provider.DiscoveryJerseyProvider:70]: Using JSON encoding codec LegacyJacksonJson
+16:43:43.501  INFO [risk,,] [18184] [main][com.netflix.discovery.provider.DiscoveryJerseyProvider:71]: Using JSON decoding codec LegacyJacksonJson
+16:43:43.623  INFO [risk,,] [18184] [main][com.netflix.discovery.provider.DiscoveryJerseyProvider:80]: Using XML encoding codec XStreamXml
+16:43:43.623  INFO [risk,,] [18184] [main][com.netflix.discovery.provider.DiscoveryJerseyProvider:81]: Using XML decoding codec XStreamXml
+16:43:43.792  INFO [risk,,] [18184] [main][com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43]: Resolving eureka endpoints via configuration
+16:43:44.119  INFO [risk,,] [18184] [main][com.netflix.discovery.DiscoveryClient:1007]: Disable delta property : false
+16:43:44.119  INFO [risk,,] [18184] [main][com.netflix.discovery.DiscoveryClient:1008]: Single vip registry refresh property : null
+16:43:44.119  INFO [risk,,] [18184] [main][com.netflix.discovery.DiscoveryClient:1009]: Force full registry fetch : false
+16:43:44.119  INFO [risk,,] [18184] [main][com.netflix.discovery.DiscoveryClient:1010]: Application is null : false
+16:43:44.119  INFO [risk,,] [18184] [main][com.netflix.discovery.DiscoveryClient:1011]: Registered Applications size is zero : true
+16:43:44.119  INFO [risk,,] [18184] [main][com.netflix.discovery.DiscoveryClient:1013]: Application version is -1: true
+16:43:44.119  INFO [risk,,] [18184] [main][com.netflix.discovery.DiscoveryClient:1097]: Getting all instance registry info from the eureka server
+16:43:44.328  INFO [risk,,] [18184] [main][com.netflix.discovery.DiscoveryClient:1106]: The response status is 200
+16:43:44.331  INFO [risk,,] [18184] [main][com.netflix.discovery.DiscoveryClient:1321]: Starting heartbeat executor: renew interval is: 5
+16:43:44.333  INFO [risk,,] [18184] [main][com.netflix.discovery.InstanceInfoReplicator:60]: InstanceInfoReplicator onDemand update allowed rate per min is 4
+16:43:44.337  INFO [risk,,] [18184] [main][com.netflix.discovery.DiscoveryClient:492]: Discovery Client initialized at timestamp 1606466624335 with initial instances count: 3
+16:43:44.345  INFO [risk,,] [18184] [main][org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry:41]: Registering application RISK with eureka with status UP
+16:43:44.358  INFO [risk,,] [18184] [main][org.xnio.Xnio:95]: XNIO version 3.8.0.Final
+16:43:44.366  INFO [risk,,] [18184] [main][org.xnio.nio.NioXnio:59]: XNIO NIO Implementation Version 3.8.0.Final
+16:43:44.393  INFO [risk,,] [18184] [main][org.jboss.threads.Version:52]: JBoss Threads version 3.1.0.Final
+16:43:44.437  INFO [risk,,] [18184] [main][io.undertow.Undertow:117]: starting server: Undertow - 2.1.4.Final
+16:43:44.543  INFO [risk,,] [18184] [main][org.springframework.boot.web.embedded.undertow.UndertowWebServer:133]: Undertow started on port(s) 8155 (http)
+16:43:44.544  INFO [risk,,] [18184] [main][org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration:145]: Updating port to 8155
+16:43:44.673  INFO [risk,,] [18184] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:43:44.673  INFO [risk,,] [18184] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:43:44.930  INFO [risk,,] [18184] [main][org.springframework.boot.StartupInfoLogger:61]: Started RiskApplication in 9.177 seconds (JVM running for 10.771)
+16:43:45.647  INFO [risk,,] [18184] [XNIO-2 task-1][io.undertow.servlet.spec.ServletContextImpl:364]: Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:43:45.647  INFO [risk,,] [18184] [XNIO-2 task-1][org.springframework.web.servlet.FrameworkServlet:525]: Initializing Servlet 'dispatcherServlet'
+16:43:45.668  INFO [risk,,] [18184] [XNIO-2 task-1][org.springframework.web.servlet.FrameworkServlet:547]: Completed initialization in 21 ms
+16:43:49.579  INFO [risk,,] [18184] [DiscoveryClient-HeartbeatExecutor-0][com.netflix.discovery.DiscoveryClient:897]: DiscoveryClient_RISK/${eureka.instance.ip-address}:8155 - Re-registering apps/RISK
+16:43:49.579  INFO [risk,,] [18184] [DiscoveryClient-HeartbeatExecutor-0][com.netflix.discovery.DiscoveryClient:873]: DiscoveryClient_RISK/${eureka.instance.ip-address}:8155: registering service...
+16:43:49.664  INFO [risk,,] [18184] [DiscoveryClient-HeartbeatExecutor-0][com.netflix.discovery.DiscoveryClient:882]: DiscoveryClient_RISK/${eureka.instance.ip-address}:8155 - registration status: 204
+16:44:13.932  INFO [risk,,] [18184] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:44:14.448  INFO [risk,,] [18184] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:44:43.919  INFO [risk,,] [18184] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:44:44.456  INFO [risk,,] [18184] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:45:13.942  INFO [risk,,] [18184] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:45:14.457  INFO [risk,,] [18184] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:45:43.911  INFO [risk,,] [18184] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:45:44.430  INFO [risk,,] [18184] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:46:13.923  INFO [risk,,] [18184] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:46:14.441  INFO [risk,,] [18184] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:46:43.909  INFO [risk,,] [18184] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:46:44.429  INFO [risk,,] [18184] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:47:13.910  INFO [risk,,] [18184] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:47:14.433  INFO [risk,,] [18184] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:47:43.932  INFO [risk,,] [18184] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:47:44.456  INFO [risk,,] [18184] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:48:13.909  INFO [risk,,] [18184] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:48:14.431  INFO [risk,,] [18184] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:48:43.909  INFO [risk,,] [18184] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:48:44.122  INFO [risk,,] [18184] [AsyncResolver-bootstrap-executor-0][com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43]: Resolving eureka endpoints via configuration
+16:48:44.430  INFO [risk,,] [18184] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:49:13.909  INFO [risk,,] [18184] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:49:14.431  INFO [risk,,] [18184] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:49:43.936  INFO [risk,,] [18184] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:49:44.436  INFO [risk,,] [18184] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:50:13.931  INFO [risk,,] [18184] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:50:14.453  INFO [risk,,] [18184] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:50:43.925  INFO [risk,,] [18184] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:50:44.430  INFO [risk,,] [18184] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:51:13.910  INFO [risk,,] [18184] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:51:14.427  INFO [risk,,] [18184] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:51:43.918  INFO [risk,,] [18184] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:51:44.441  INFO [risk,,] [18184] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:52:13.929  INFO [risk,,] [18184] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:52:14.444  INFO [risk,,] [18184] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:52:43.914  INFO [risk,,] [18184] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:52:44.432  INFO [risk,,] [18184] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:53:13.911  INFO [risk,,] [18184] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:53:14.436  INFO [risk,,] [18184] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:53:43.910  INFO [risk,,] [18184] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:53:44.124  INFO [risk,,] [18184] [AsyncResolver-bootstrap-executor-0][com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43]: Resolving eureka endpoints via configuration
+16:53:44.437  INFO [risk,,] [18184] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:54:13.911  INFO [risk,,] [18184] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:54:14.429  INFO [risk,,] [18184] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:54:44.217  INFO [risk,,{}spanId] [17904] [background-preinit][org.hibernate.validator.internal.util.Version:21]: HV000001: Hibernate Validator 6.1.6.Final
+16:54:45.361  INFO [risk,,{}spanId] [17904] [main][org.springframework.boot.SpringApplication:651]: No active profile set, falling back to default profiles: default
+16:54:46.199  INFO [risk,,{}spanId] [17904] [main][org.springframework.data.repository.config.RepositoryConfigurationDelegate:249]: Multiple Spring Data modules found, entering strict repository configuration mode!
+16:54:46.203  INFO [risk,,{}spanId] [17904] [main][org.springframework.data.repository.config.RepositoryConfigurationDelegate:127]: Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+16:54:46.245  INFO [risk,,{}spanId] [17904] [main][org.springframework.data.repository.config.RepositoryConfigurationDelegate:187]: Finished Spring Data repository scanning in 18ms. Found 0 Redis repository interfaces.
+16:54:46.582  INFO [risk,,{}spanId] [17904] [main][org.springframework.cloud.context.scope.GenericScope:295]: BeanFactory id=c67ba0a4-fd94-37bd-87dd-180e0f42e11b
+16:54:46.874  INFO [risk,,{}spanId] [17904] [main][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335]: Bean 'spring.sleuth.redis-org.springframework.cloud.sleuth.instrument.redis.TraceRedisProperties' of type [org.springframework.cloud.sleuth.instrument.redis.TraceRedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:54:47.229  WARN [risk,,{}spanId] [17904] [main][io.undertow.websockets.jsr.Bootstrap:68]: UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+16:54:47.260  INFO [risk,,{}spanId] [17904] [main][io.undertow.servlet.spec.ServletContextImpl:364]: Initializing Spring embedded WebApplicationContext
+16:54:47.260  INFO [risk,,{}spanId] [17904] [main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:285]: Root WebApplicationContext: initialization completed in 1878 ms
+16:54:47.970  WARN [risk,,{}spanId] [17904] [main][com.netflix.config.sources.URLConfigurationSource:121]: No URLs will be polled as dynamic configuration sources.
+16:54:47.970  INFO [risk,,{}spanId] [17904] [main][com.netflix.config.sources.URLConfigurationSource:122]: To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+16:54:47.975  WARN [risk,,{}spanId] [17904] [main][com.netflix.config.sources.URLConfigurationSource:121]: No URLs will be polled as dynamic configuration sources.
+16:54:47.975  INFO [risk,,{}spanId] [17904] [main][com.netflix.config.sources.URLConfigurationSource:122]: To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+16:54:48.350  INFO [risk,,{}spanId] [17904] [main][org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:181]: Initializing ExecutorService 'applicationTaskExecutor'
+16:54:52.571  INFO [risk,,{}spanId] [17904] [main][org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration:78]: Eureka HTTP Client uses Jersey
+16:54:53.324  WARN [risk,,{}spanId] [17904] [main][org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger:108]: You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+16:54:53.791  INFO [risk,,{}spanId] [17904] [main][org.springframework.cloud.netflix.eureka.InstanceInfoFactory:78]: Setting initial instance status as: UP. This may be too early for the instance to advertise itself as available. You would instead want to control this via a healthcheck handler.
+16:54:53.840  INFO [risk,,{}spanId] [17904] [main][com.netflix.discovery.DiscoveryClient:372]: Initializing Eureka in region us-east-1
+16:54:54.131  INFO [risk,,{}spanId] [17904] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:54:54.131  INFO [risk,,{}spanId] [17904] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:54:54.224  INFO [risk,,{}spanId] [17904] [main][com.netflix.discovery.provider.DiscoveryJerseyProvider:70]: Using JSON encoding codec LegacyJacksonJson
+16:54:54.224  INFO [risk,,{}spanId] [17904] [main][com.netflix.discovery.provider.DiscoveryJerseyProvider:71]: Using JSON decoding codec LegacyJacksonJson
+16:54:54.454  INFO [risk,,{}spanId] [17904] [main][com.netflix.discovery.provider.DiscoveryJerseyProvider:80]: Using XML encoding codec XStreamXml
+16:54:54.454  INFO [risk,,{}spanId] [17904] [main][com.netflix.discovery.provider.DiscoveryJerseyProvider:81]: Using XML decoding codec XStreamXml
+16:54:54.795  INFO [risk,,{}spanId] [17904] [main][com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43]: Resolving eureka endpoints via configuration
+16:54:55.164  INFO [risk,,{}spanId] [17904] [main][com.netflix.discovery.DiscoveryClient:1007]: Disable delta property : false
+16:54:55.165  INFO [risk,,{}spanId] [17904] [main][com.netflix.discovery.DiscoveryClient:1008]: Single vip registry refresh property : null
+16:54:55.165  INFO [risk,,{}spanId] [17904] [main][com.netflix.discovery.DiscoveryClient:1009]: Force full registry fetch : false
+16:54:55.165  INFO [risk,,{}spanId] [17904] [main][com.netflix.discovery.DiscoveryClient:1010]: Application is null : false
+16:54:55.165  INFO [risk,,{}spanId] [17904] [main][com.netflix.discovery.DiscoveryClient:1011]: Registered Applications size is zero : true
+16:54:55.166  INFO [risk,,{}spanId] [17904] [main][com.netflix.discovery.DiscoveryClient:1013]: Application version is -1: true
+16:54:55.166  INFO [risk,,{}spanId] [17904] [main][com.netflix.discovery.DiscoveryClient:1097]: Getting all instance registry info from the eureka server
+16:54:55.506  INFO [risk,,{}spanId] [17904] [main][com.netflix.discovery.DiscoveryClient:1106]: The response status is 200
+16:54:55.510  INFO [risk,,{}spanId] [17904] [main][com.netflix.discovery.DiscoveryClient:1321]: Starting heartbeat executor: renew interval is: 5
+16:54:55.513  INFO [risk,,{}spanId] [17904] [main][com.netflix.discovery.InstanceInfoReplicator:60]: InstanceInfoReplicator onDemand update allowed rate per min is 4
+16:54:55.518  INFO [risk,,{}spanId] [17904] [main][com.netflix.discovery.DiscoveryClient:492]: Discovery Client initialized at timestamp 1606467295516 with initial instances count: 3
+16:54:55.528  INFO [risk,,{}spanId] [17904] [main][org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry:41]: Registering application RISK with eureka with status UP
+16:54:55.548  INFO [risk,,{}spanId] [17904] [main][org.xnio.Xnio:95]: XNIO version 3.8.0.Final
+16:54:55.557  INFO [risk,,{}spanId] [17904] [main][org.xnio.nio.NioXnio:59]: XNIO NIO Implementation Version 3.8.0.Final
+16:54:55.597  INFO [risk,,{}spanId] [17904] [main][org.jboss.threads.Version:52]: JBoss Threads version 3.1.0.Final
+16:54:55.677  INFO [risk,,{}spanId] [17904] [main][io.undertow.Undertow:117]: starting server: Undertow - 2.1.4.Final
+16:54:55.761  INFO [risk,,{}spanId] [17904] [main][org.springframework.boot.web.embedded.undertow.UndertowWebServer:133]: Undertow started on port(s) 8155 (http)
+16:54:55.762  INFO [risk,,{}spanId] [17904] [main][org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration:145]: Updating port to 8155
+16:54:56.269  INFO [risk,,{}spanId] [17904] [main][org.springframework.boot.StartupInfoLogger:61]: Started RiskApplication in 12.81 seconds (JVM running for 15.058)
+16:55:00.631  INFO [risk,,{}spanId] [17904] [DiscoveryClient-HeartbeatExecutor-0][com.netflix.discovery.DiscoveryClient:897]: DiscoveryClient_RISK/${eureka.instance.ip-address}:8155 - Re-registering apps/RISK
+16:55:00.631  INFO [risk,,{}spanId] [17904] [DiscoveryClient-HeartbeatExecutor-0][com.netflix.discovery.DiscoveryClient:873]: DiscoveryClient_RISK/${eureka.instance.ip-address}:8155: registering service...
+16:55:00.722  INFO [risk,,{}spanId] [17904] [DiscoveryClient-HeartbeatExecutor-0][com.netflix.discovery.DiscoveryClient:882]: DiscoveryClient_RISK/${eureka.instance.ip-address}:8155 - registration status: 204
+16:55:23.241  INFO [risk,,{}spanId] [17904] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:55:23.904  INFO [risk,,{}spanId] [17904] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:55:53.249  INFO [risk,,{}spanId] [17904] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:55:53.902  INFO [risk,,{}spanId] [17904] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:56:23.251  INFO [risk,,{}spanId] [17904] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:56:23.898  INFO [risk,,{}spanId] [17904] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:56:46.676  INFO [risk,,] [22384] [background-preinit][org.hibernate.validator.internal.util.Version:21]: HV000001: Hibernate Validator 6.1.6.Final
+16:56:56.843  INFO [risk,,] [24192] [background-preinit][org.hibernate.validator.internal.util.Version:21]: HV000001: Hibernate Validator 6.1.6.Final
+16:56:57.788  INFO [risk,,] [24192] [main][org.springframework.boot.SpringApplication:651]: No active profile set, falling back to default profiles: default
+16:56:58.484  INFO [risk,,] [24192] [main][org.springframework.data.repository.config.RepositoryConfigurationDelegate:249]: Multiple Spring Data modules found, entering strict repository configuration mode!
+16:56:58.487  INFO [risk,,] [24192] [main][org.springframework.data.repository.config.RepositoryConfigurationDelegate:127]: Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+16:56:58.508  INFO [risk,,] [24192] [main][org.springframework.data.repository.config.RepositoryConfigurationDelegate:187]: Finished Spring Data repository scanning in 9ms. Found 0 Redis repository interfaces.
+16:56:58.798  INFO [risk,,] [24192] [main][org.springframework.cloud.context.scope.GenericScope:295]: BeanFactory id=c67ba0a4-fd94-37bd-87dd-180e0f42e11b
+16:56:59.063  INFO [risk,,] [24192] [main][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335]: Bean 'spring.sleuth.redis-org.springframework.cloud.sleuth.instrument.redis.TraceRedisProperties' of type [org.springframework.cloud.sleuth.instrument.redis.TraceRedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:56:59.331  WARN [risk,,] [24192] [main][io.undertow.websockets.jsr.Bootstrap:68]: UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+16:56:59.354  INFO [risk,,] [24192] [main][io.undertow.servlet.spec.ServletContextImpl:364]: Initializing Spring embedded WebApplicationContext
+16:56:59.354  INFO [risk,,] [24192] [main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:285]: Root WebApplicationContext: initialization completed in 1554 ms
+16:56:59.950  WARN [risk,,] [24192] [main][com.netflix.config.sources.URLConfigurationSource:121]: No URLs will be polled as dynamic configuration sources.
+16:56:59.950  INFO [risk,,] [24192] [main][com.netflix.config.sources.URLConfigurationSource:122]: To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+16:56:59.954  WARN [risk,,] [24192] [main][com.netflix.config.sources.URLConfigurationSource:121]: No URLs will be polled as dynamic configuration sources.
+16:56:59.954  INFO [risk,,] [24192] [main][com.netflix.config.sources.URLConfigurationSource:122]: To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+16:57:00.371  INFO [risk,,] [24192] [main][org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:181]: Initializing ExecutorService 'applicationTaskExecutor'
+16:57:03.542  INFO [risk,,] [24192] [main][org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration:78]: Eureka HTTP Client uses Jersey
+16:57:04.013  WARN [risk,,] [24192] [main][org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger:108]: You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+16:57:04.290  INFO [risk,,] [24192] [main][org.springframework.cloud.netflix.eureka.InstanceInfoFactory:78]: Setting initial instance status as: UP. This may be too early for the instance to advertise itself as available. You would instead want to control this via a healthcheck handler.
+16:57:04.317  INFO [risk,,] [24192] [main][com.netflix.discovery.DiscoveryClient:372]: Initializing Eureka in region us-east-1
+16:57:04.506  INFO [risk,,] [24192] [main][com.netflix.discovery.provider.DiscoveryJerseyProvider:70]: Using JSON encoding codec LegacyJacksonJson
+16:57:04.507  INFO [risk,,] [24192] [main][com.netflix.discovery.provider.DiscoveryJerseyProvider:71]: Using JSON decoding codec LegacyJacksonJson
+16:57:04.665  INFO [risk,,] [24192] [main][com.netflix.discovery.provider.DiscoveryJerseyProvider:80]: Using XML encoding codec XStreamXml
+16:57:04.665  INFO [risk,,] [24192] [main][com.netflix.discovery.provider.DiscoveryJerseyProvider:81]: Using XML decoding codec XStreamXml
+16:57:04.891  INFO [risk,,] [24192] [main][com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43]: Resolving eureka endpoints via configuration
+16:57:05.159  INFO [risk,,] [24192] [main][com.netflix.discovery.DiscoveryClient:1007]: Disable delta property : false
+16:57:05.159  INFO [risk,,] [24192] [main][com.netflix.discovery.DiscoveryClient:1008]: Single vip registry refresh property : null
+16:57:05.159  INFO [risk,,] [24192] [main][com.netflix.discovery.DiscoveryClient:1009]: Force full registry fetch : false
+16:57:05.159  INFO [risk,,] [24192] [main][com.netflix.discovery.DiscoveryClient:1010]: Application is null : false
+16:57:05.160  INFO [risk,,] [24192] [main][com.netflix.discovery.DiscoveryClient:1011]: Registered Applications size is zero : true
+16:57:05.160  INFO [risk,,] [24192] [main][com.netflix.discovery.DiscoveryClient:1013]: Application version is -1: true
+16:57:05.160  INFO [risk,,] [24192] [main][com.netflix.discovery.DiscoveryClient:1097]: Getting all instance registry info from the eureka server
+16:57:05.388  INFO [risk,,] [24192] [main][com.netflix.discovery.DiscoveryClient:1106]: The response status is 200
+16:57:05.391  INFO [risk,,] [24192] [main][com.netflix.discovery.DiscoveryClient:1321]: Starting heartbeat executor: renew interval is: 5
+16:57:05.394  INFO [risk,,] [24192] [main][com.netflix.discovery.InstanceInfoReplicator:60]: InstanceInfoReplicator onDemand update allowed rate per min is 4
+16:57:05.398  INFO [risk,,] [24192] [main][com.netflix.discovery.DiscoveryClient:492]: Discovery Client initialized at timestamp 1606467425397 with initial instances count: 4
+16:57:05.406  INFO [risk,,] [24192] [main][org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry:41]: Registering application RISK with eureka with status UP
+16:57:05.420  INFO [risk,,] [24192] [main][org.xnio.Xnio:95]: XNIO version 3.8.0.Final
+16:57:05.427  INFO [risk,,] [24192] [main][org.xnio.nio.NioXnio:59]: XNIO NIO Implementation Version 3.8.0.Final
+16:57:05.460  INFO [risk,,] [24192] [main][org.jboss.threads.Version:52]: JBoss Threads version 3.1.0.Final
+16:57:05.502  INFO [risk,,] [24192] [main][io.undertow.Undertow:117]: starting server: Undertow - 2.1.4.Final
+16:57:05.578  INFO [risk,,] [24192] [main][org.springframework.boot.web.embedded.undertow.UndertowWebServer:133]: Undertow started on port(s) 8155 (http)
+16:57:05.580  INFO [risk,,] [24192] [main][org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration:145]: Updating port to 8155
+16:57:05.708  INFO [risk,,] [24192] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:57:05.708  INFO [risk,,] [24192] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:57:14.864  INFO [risk,,] [16648] [background-preinit][org.hibernate.validator.internal.util.Version:21]: HV000001: Hibernate Validator 6.1.6.Final
+16:57:15.905  INFO [risk,,] [16648] [main][org.springframework.boot.SpringApplication:651]: No active profile set, falling back to default profiles: default
+16:57:16.678  INFO [risk,,] [16648] [main][org.springframework.data.repository.config.RepositoryConfigurationDelegate:249]: Multiple Spring Data modules found, entering strict repository configuration mode!
+16:57:16.683  INFO [risk,,] [16648] [main][org.springframework.data.repository.config.RepositoryConfigurationDelegate:127]: Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+16:57:16.721  INFO [risk,,] [16648] [main][org.springframework.data.repository.config.RepositoryConfigurationDelegate:187]: Finished Spring Data repository scanning in 17ms. Found 0 Redis repository interfaces.
+16:57:17.200  INFO [risk,,] [16648] [main][org.springframework.cloud.context.scope.GenericScope:295]: BeanFactory id=c67ba0a4-fd94-37bd-87dd-180e0f42e11b
+16:57:17.440  INFO [risk,,] [16648] [main][org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:335]: Bean 'spring.sleuth.redis-org.springframework.cloud.sleuth.instrument.redis.TraceRedisProperties' of type [org.springframework.cloud.sleuth.instrument.redis.TraceRedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:57:17.767  WARN [risk,,] [16648] [main][io.undertow.websockets.jsr.Bootstrap:68]: UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+16:57:17.794  INFO [risk,,] [16648] [main][io.undertow.servlet.spec.ServletContextImpl:364]: Initializing Spring embedded WebApplicationContext
+16:57:17.794  INFO [risk,,] [16648] [main][org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:285]: Root WebApplicationContext: initialization completed in 1865 ms
+16:57:18.441  WARN [risk,,] [16648] [main][com.netflix.config.sources.URLConfigurationSource:121]: No URLs will be polled as dynamic configuration sources.
+16:57:18.441  INFO [risk,,] [16648] [main][com.netflix.config.sources.URLConfigurationSource:122]: To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+16:57:18.450  WARN [risk,,] [16648] [main][com.netflix.config.sources.URLConfigurationSource:121]: No URLs will be polled as dynamic configuration sources.
+16:57:18.450  INFO [risk,,] [16648] [main][com.netflix.config.sources.URLConfigurationSource:122]: To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+16:57:18.904  INFO [risk,,] [16648] [main][org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:181]: Initializing ExecutorService 'applicationTaskExecutor'
+16:57:22.187  INFO [risk,,] [16648] [main][org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration:78]: Eureka HTTP Client uses Jersey
+16:57:22.668  WARN [risk,,] [16648] [main][org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger:108]: You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+16:57:22.971  INFO [risk,,] [16648] [main][org.springframework.cloud.netflix.eureka.InstanceInfoFactory:78]: Setting initial instance status as: UP. This may be too early for the instance to advertise itself as available. You would instead want to control this via a healthcheck handler.
+16:57:23.000  INFO [risk,,] [16648] [main][com.netflix.discovery.DiscoveryClient:372]: Initializing Eureka in region us-east-1
+16:57:23.155  INFO [risk,,] [16648] [main][com.netflix.discovery.provider.DiscoveryJerseyProvider:70]: Using JSON encoding codec LegacyJacksonJson
+16:57:23.155  INFO [risk,,] [16648] [main][com.netflix.discovery.provider.DiscoveryJerseyProvider:71]: Using JSON decoding codec LegacyJacksonJson
+16:57:23.276  INFO [risk,,] [16648] [main][com.netflix.discovery.provider.DiscoveryJerseyProvider:80]: Using XML encoding codec XStreamXml
+16:57:23.276  INFO [risk,,] [16648] [main][com.netflix.discovery.provider.DiscoveryJerseyProvider:81]: Using XML decoding codec XStreamXml
+16:57:23.434  INFO [risk,,] [16648] [main][com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43]: Resolving eureka endpoints via configuration
+16:57:23.770  INFO [risk,,] [16648] [main][com.netflix.discovery.DiscoveryClient:1007]: Disable delta property : false
+16:57:23.770  INFO [risk,,] [16648] [main][com.netflix.discovery.DiscoveryClient:1008]: Single vip registry refresh property : null
+16:57:23.770  INFO [risk,,] [16648] [main][com.netflix.discovery.DiscoveryClient:1009]: Force full registry fetch : false
+16:57:23.771  INFO [risk,,] [16648] [main][com.netflix.discovery.DiscoveryClient:1010]: Application is null : false
+16:57:23.771  INFO [risk,,] [16648] [main][com.netflix.discovery.DiscoveryClient:1011]: Registered Applications size is zero : true
+16:57:23.771  INFO [risk,,] [16648] [main][com.netflix.discovery.DiscoveryClient:1013]: Application version is -1: true
+16:57:23.771  INFO [risk,,] [16648] [main][com.netflix.discovery.DiscoveryClient:1097]: Getting all instance registry info from the eureka server
+16:57:24.030  INFO [risk,,] [16648] [main][com.netflix.discovery.DiscoveryClient:1106]: The response status is 200
+16:57:24.034  INFO [risk,,] [16648] [main][com.netflix.discovery.DiscoveryClient:1321]: Starting heartbeat executor: renew interval is: 5
+16:57:24.037  INFO [risk,,] [16648] [main][com.netflix.discovery.InstanceInfoReplicator:60]: InstanceInfoReplicator onDemand update allowed rate per min is 4
+16:57:24.043  INFO [risk,,] [16648] [main][com.netflix.discovery.DiscoveryClient:492]: Discovery Client initialized at timestamp 1606467444041 with initial instances count: 3
+16:57:24.052  INFO [risk,,] [16648] [main][org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry:41]: Registering application RISK with eureka with status UP
+16:57:24.069  INFO [risk,,] [16648] [main][org.xnio.Xnio:95]: XNIO version 3.8.0.Final
+16:57:24.080  INFO [risk,,] [16648] [main][org.xnio.nio.NioXnio:59]: XNIO NIO Implementation Version 3.8.0.Final
+16:57:24.115  INFO [risk,,] [16648] [main][org.jboss.threads.Version:52]: JBoss Threads version 3.1.0.Final
+16:57:24.163  INFO [risk,,] [16648] [main][io.undertow.Undertow:117]: starting server: Undertow - 2.1.4.Final
+16:57:24.279  INFO [risk,,] [16648] [main][org.springframework.boot.web.embedded.undertow.UndertowWebServer:133]: Undertow started on port(s) 8155 (http)
+16:57:24.280  INFO [risk,,] [16648] [main][org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration:145]: Updating port to 8155
+16:57:24.329  INFO [risk,,] [16648] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:57:24.329  INFO [risk,,] [16648] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:57:24.740  INFO [risk,,] [16648] [main][org.springframework.boot.StartupInfoLogger:61]: Started RiskApplication in 10.596 seconds (JVM running for 12.121)
+16:57:29.157  INFO [risk,,] [16648] [DiscoveryClient-HeartbeatExecutor-0][com.netflix.discovery.DiscoveryClient:897]: DiscoveryClient_RISK/${eureka.instance.ip-address}:8155 - Re-registering apps/RISK
+16:57:29.157  INFO [risk,,] [16648] [DiscoveryClient-HeartbeatExecutor-0][com.netflix.discovery.DiscoveryClient:873]: DiscoveryClient_RISK/${eureka.instance.ip-address}:8155: registering service...
+16:57:29.218  INFO [risk,,] [16648] [DiscoveryClient-HeartbeatExecutor-0][com.netflix.discovery.DiscoveryClient:882]: DiscoveryClient_RISK/${eureka.instance.ip-address}:8155 - registration status: 204
+16:57:53.548  INFO [risk,,] [16648] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:57:54.209  INFO [risk,,] [16648] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:58:08.298  INFO [risk,,] [16648] [XNIO-2 task-1][io.undertow.servlet.spec.ServletContextImpl:364]: Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:58:08.299  INFO [risk,,] [16648] [XNIO-2 task-1][org.springframework.web.servlet.FrameworkServlet:525]: Initializing Servlet 'dispatcherServlet'
+16:58:08.318  INFO [risk,,] [16648] [XNIO-2 task-1][org.springframework.web.servlet.FrameworkServlet:547]: Completed initialization in 19 ms
+16:58:23.552  INFO [risk,,] [16648] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:58:24.222  INFO [risk,,] [16648] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:58:53.548  INFO [risk,,] [16648] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:58:54.195  INFO [risk,,] [16648] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:59:23.546  INFO [risk,,] [16648] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:59:24.199  INFO [risk,,] [16648] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:59:53.558  INFO [risk,,] [16648] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true
+16:59:54.200  INFO [risk,,] [16648] [NettyClientSelector_1][org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger:95]: closeChannel: close the connection to remote address[] result: true

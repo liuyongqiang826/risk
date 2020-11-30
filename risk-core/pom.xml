@@ -13,13 +13,13 @@
 	<name>risk-core</name>
 	<url>http://maven.apache.org</url>
 
-	<!-- <build>
+	<build>
 		<plugins>
-			对于有main函数即每个微服务，需要添加这个依赖打成一个可执行的jar包
+			<!--对于有main函数即每个微服务，需要添加这个依赖打成一个可执行的jar包 -->
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-	</build> -->
+	</build>
 </project>

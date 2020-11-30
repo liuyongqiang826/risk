@@ -115,6 +115,7 @@
 		additivity="false" includeLocation="true">
 		<appender-ref ref="file" />
 	</AsyncLogger>
+	
 	<AsyncLogger
 		name="com.alibaba.druid.pool.DruidDataSourceStatLoggerImpl"
 		level="error" additivity="false" includeLocation="true">
